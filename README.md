@@ -2,6 +2,10 @@
 Node With Docker - Continuous Integration and Delivery
 
 
+# Reference
+http://mherman.org/blog/2015/03/06/node-with-docker-continuous-integration-and-delivery/#.VybN-2ArJhE
+
+
 # Node Project
 
 ## Initial Setup Steps
