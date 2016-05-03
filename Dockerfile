@@ -5,14 +5,15 @@ RUN mkdir /app
 CMD echo "HERE"
 CMD pwd
 
-COPY app /app
-COPY .babelrc /.babelrc
-COPY package.json /package.json
-COPY webpack.config.js /webpack.config.js
+COPY app /src/app
+COPY .babelrc /src/.babelrc
+COPY package.json /src/package.json
+COPY webpack.config.js /src/webpack.config.js
 
-CMD echo "COPIED!"
+WORKDIR /src
+
 RUN npm install
 
 EXPOSE 8080
 
-CMD npm start
+CMD npm run start
