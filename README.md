@@ -28,5 +28,13 @@ http://mherman.org/blog/2015/03/06/node-with-docker-continuous-integration-and-d
 
 # Docker
 
-## Build Image
+```bash
+docker run -d -p 8080:8080 dev3l/docker-node-js
+```
+
+Retrieve the IP address of the machine in Windows / Mac usings the following command:
+```bash
+docker-machine ip default
+curl http://192.168.99.100:8080
+```
 
