@@ -15,7 +15,7 @@ var Hello = React.createClass({
             <div className="jumbotron" style={divStyle}>
                 <img src={'https://octodex.github.com/images/spidertocat.png'} alt="Spidertocat"
                      className="img-responsive center-block" style={imageStyle}/>
-                <h2 className="text-center">Hello World! DEV3L - v1.0</h2>
+                <h2 className="text-center">Hello World! DEV3L - v1.1</h2>
             </div>
         )
     }
